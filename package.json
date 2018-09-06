@@ -1,0 +1,28 @@
+{
+  "name": "viphotography",
+  "version": "1.0.0",
+  "description": "A website for clients to book their special occasion, view, and download their images from a database utilizing API.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juan-Betancourt/VIPhotography.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Juan-Betancourt/VIPhotography/issues"
+  },
+  "homepage": "https://github.com/Juan-Betancourt/VIPhotography#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "npm": "^6.4.1",
+    "pg": "^7.4.3",
+    "superagent": "^3.8.3"
+  }
+}
