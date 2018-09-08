@@ -47,10 +47,12 @@ const getClientImages = (req, res) => {
     .catch(err => console.log(err, res))
   });
 };
+
 // ROUTES
 app.get('/', renderIndex);
 app.get('/images', getAllImages);
 app.get('/images:thidId', getClientImages);
+
 // LISTENER
 app.listen(PORT, () => {
   console.log(`Connected on port ${PORT}`);
